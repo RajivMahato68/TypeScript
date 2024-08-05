@@ -1,0 +1,14 @@
+// const user: (string | number)[] = [1,"hc"]
+let tuser: [string,number, boolean]
+
+tuser = ["hc", 131, true]
+
+let rgb:[number, number, number] = [255,123,112,]
+
+
+type User = [number,string]
+
+const newUser:User = [112, "example@gmail.com"]
+
+newUser[1] = "hc.com"
+// newUser.push(true)
